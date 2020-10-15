@@ -19,7 +19,7 @@ public class a0810
                 double x2;
                 
                 System.out.println();
-                System.out.println("\nCalculadora de raízes quadradas.");
+                System.out.println("\nSecond degree polynomials calculator");
                 System.out.println("/--------");
                 System.out.print("| a | ");
                 a = scanner.nextDouble();
@@ -59,7 +59,7 @@ public class a0810
                 else
                     {
                         System.out.println();
-                        System.out.print("Delta = " + delta + ", ímpossivel calcular raízes de números negativos!");
+                        System.out.print("Delta = " + delta + ", impossible to calculate square roots of negative numbers!");
                     }
             }
     }
