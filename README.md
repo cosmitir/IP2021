@@ -9,7 +9,8 @@ Introdução à Programação 2020/2021 (1º ano/1º semestre)
 * XX = Week's first day
 * YY = Week's last day
 * ZZ = Month
-## File Syntax = aXXYY
+## File Syntax = aXXYYz
 * a = Class
 * XX = Class day
 * YY = Class month
+* z = Other program
