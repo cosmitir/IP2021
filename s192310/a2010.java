@@ -34,7 +34,7 @@ public class a2010
             {
                 return massa / (altura * altura);
             }
-        static String imcM(double imc)
+        public static String imcM(double imc)
             {
                 if (imc < 17)
                     {
