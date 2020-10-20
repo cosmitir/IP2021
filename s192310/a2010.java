@@ -13,7 +13,7 @@ public class a2010
                 double massa;
                 double altura;
                 double imc;
-                
+
                 System.out.println("\nCálculo de IMC");
                 System.out.println();
 
@@ -50,14 +50,14 @@ public class a2010
                         System.out.print("Obesidade III (mórbida)");
                     }
             }
-            public static double readDouble(String message)
+            static double readDouble(String message)
                 {
                     double a;
                     System.out.print(message);
                     a = scanner.nextDouble();
                     return a;
                 }
-            public static double imcC(double massa, double altura)
+            static double imcC(double massa, double altura)
                 {
                     double a;
                     a = massa / (altura * altura);
