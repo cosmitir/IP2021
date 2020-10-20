@@ -13,7 +13,7 @@ public class a2010
                 double massa;
                 double altura;
                 double imc;
-
+                
                 System.out.println("\nCálculo de IMC");
                 System.out.println();
 
