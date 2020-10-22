@@ -9,7 +9,10 @@ public class a2210b
             }
 
         public static void main(String[] args)
-            {
+            {   
+                int a;
+                int b;
+
                 System.out.println("Exchange variables value with '^'.");
 
                 int a = 7;
@@ -20,5 +23,10 @@ public class a2210b
                 a = a ^ b;
 
                 System.out.print("a = " + a + "\nb = " + b);
+            }
+        static int readInt(String message)
+            {
+                System.out.print(message);
+                return scanner.nextInt();
             }
     }
