@@ -60,7 +60,7 @@ public class a2010
                     {
                         return "Obesidade II (severa)";
                     }
-                else if (imc > 40)
+                else
                     {
                         return "Obesidade III (mórbida)";
                     }

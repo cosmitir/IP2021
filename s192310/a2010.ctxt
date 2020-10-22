@@ -6,4 +6,6 @@ comment2.params=message
 comment2.target=double\ readDouble(java.lang.String)
 comment3.params=massa\ altura
 comment3.target=double\ imcC(double,\ double)
-numComments=4
+comment4.params=imc
+comment4.target=java.lang.String\ imcM(double)
+numComments=5

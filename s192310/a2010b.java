@@ -14,46 +14,22 @@ public class a2010
                 double consumom;
                 double precoc;
                 double consumo;
+                double preco;
 
                 System.out.println("\nCálculo do consumo de gasolina");
                 System.out.println();
 
-                System.out.print("Indique a distância percorrida: ");
+                System.out.print("Indique a distância percorrida (em km): ");
                 distanciap = scanner.nextDouble();
                 System.out.print("Indique o consumo médio do carro (l/100km): ");
                 consumom = scanner.nextDouble();
-                System.out.print("Preço do combustível: ");
+                System.out.print("Preço do combustível ($/litro): ");
                 precoc = scanner.nextDouble();
 
-                consumo = massa / (altura * altura);
+                consumo = (consumom * distanciap) / 100;
+                preco = consumo * precoc;
 
-                if (imc < 17)
-                    {
-                        System.out.print("Muito abaixo do peso.");
-                    }
-                else if (imc >= 17 && imc <= 18.49)
-                    {
-                        System.out.print("Abaixo do peso.");
-                    }
-                else if (imc >= 18.50 && imc <= 24.99)
-                    {
-                        System.out.print("Peso normal");
-                    }
-                else if (imc >= 25 && imc <= 29.99)
-                    {
-                        System.out.print("Acima do peso.");
-                    }
-                else if (imc >= 30 && imc <= 34.99)
-                    {
-                        System.out.print("Obesidade I");
-                    }
-                else if (imc >= 35 && imc <= 39.99)
-                    {
-                        System.out.print("Obesidade II (severa)");
-                    }
-                else if (imc > 40)
-                    {
-                        System.out.print("Obesidade III (mórbida)");
-                    }
+                System.out.print("O consumo do carro em " + distanciap + "km foi de " + consumo +"L.\nO preço do combustível gasto é de " + preco + " euros.");
+
             }
     }
