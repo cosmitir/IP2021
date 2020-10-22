@@ -15,8 +15,8 @@ public class a2210b
 
                 System.out.println("Exchange variables value with '^'.");
 
-                int a = 7;
-                int b = 9;
+                a = 7;
+                b = 9;
 
                 a = a ^ b;
                 b = a ^ b;
