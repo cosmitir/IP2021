@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class a2010
+public class a2010b
     {
         final static Scanner scanner = new Scanner(System.in);
         static
