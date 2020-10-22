@@ -2,4 +2,10 @@
 comment0.target=a2010b
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=message
+comment2.target=double\ readDouble(java.lang.String)
+comment3.params=consumom\ distanciap
+comment3.target=double\ consumoF(double,\ double)
+comment4.params=consumo\ precoc
+comment4.target=double\ precoF(double,\ double)
+numComments=5
