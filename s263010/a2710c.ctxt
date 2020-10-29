@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=a0810
+comment0.target=a2710c
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=message
-comment2.target=double\ readDouble(java.lang.String)
+comment2.target=int\ readNota(java.lang.String)
 numComments=3
